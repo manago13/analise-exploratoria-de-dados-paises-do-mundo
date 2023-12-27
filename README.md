@@ -7,12 +7,16 @@
 ### Objetivo
 Realizar uma análise exploratória de dados do dataset de países do mundo, no que diz respeito aos indicadores geoeconômicos e de saúde.
 
+&nbsp;
+
 ### Conjuntos de dados (datasets)
 Foram utilizados dois datasets:
 
 - **world-data-2023.csv:** abrange estatísticas demográficas, indicadores econômicos, fatores ambientais, métricas de saúde, estatísticas educacionais eetc. Com cada país representado, este conjunto de dados oferece uma perspectiva global completa sobre vários aspectos das nações, permitindo análises aprofundadas e comparações entre países.
 
 - **continentes.csv:** indica todos os países e seus respectivos continentes
+
+&nbsp;
 
 ### Bibliotecas utilizadas
 Este notebook foi desenvolvido em Jupiter e utiliza as bibliotecas abaixo:
@@ -28,6 +32,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
  ```
+
+&nbsp;
 
 ### Conclusões
 - Países com elevada taxa de natalidade e menor quantidade de médicos para cada mil habitantes são também os países com menor expectativa de vida.
